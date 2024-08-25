@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/manytoonedb
+    username: rolek
+    password: 123
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
